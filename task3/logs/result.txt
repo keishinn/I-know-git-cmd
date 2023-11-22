@@ -1,0 +1,9 @@
+mkdir task3 
+cd task3 
+mkdir logs
+cd logs 
+touch access.log 
+vim access.log 
+grep "denied wrong password" access.log | sort -r | head -n 5 
+touch result.txt 
+vim result.txt
